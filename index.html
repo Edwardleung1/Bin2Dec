@@ -8,23 +8,19 @@
     <title>Bin2Dec</title>
 </head>
 <body>
-    <div class="container">
-        <div class="content">
-            <div class="largeTitle">
-                <h1>Bin2Dec</h1>
-                <div class="smallTitle">
-                    <h3>Binary to Decimal Convert</h3>
-                </div>
-            </div>
-        <form action>
-         <label for="fname">First name:</label>
-         <input type="text" id="fname" name="fname" placeholder="">
-         <label for="fname">First name:</label>
-         <input type="text" id="fname" name="fname" placeholder="">
-         <input type="submit" value="Convert">
-        </form>
-        </div>
-    </div>
-    <script src="app.js"></script>
+<div class="container">
+    <h2 id="title">Bin2Dec</h2>
+    
+    <p id="para">Binary to Decimal Convert</p>
+    
+    <form class="form" action>
+      <label class="binary" for="fbinary">Binary: </label>
+      <input type="text" id="fbinary" name="fbinary" placeholder="Enter a binary number"></br>
+      <label class="decimal" for="ldecimal">Decimal: </label>
+      <input type="text" id="ldecimal" name="ldecimal" placeholder=""></br>
+      <input type="submit" value="Convert">
+    </form>
+</div>
+<script src="app.js"></script>
 </body>
 </html>

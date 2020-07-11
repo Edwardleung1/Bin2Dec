@@ -8,17 +8,26 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-.container,
-.content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+    margin: 200px auto;
+    width: 40%;
+    border: 3px solid blue;
+    padding: 10px;
+    text-align: center;
 }
 
-
-
-.submit {
-    display: absolute;
-    height: 10%;
+#title {
+    padding: 15px;
 }
+
+#para {
+    padding: 15px;
+}
+
+.decimal {
+    padding: 15px;
+}
+.binary {
+    padding: 15px;
+}
+
